@@ -12,6 +12,7 @@ Small - 8,98 kB
 0. Click on the script and choose "link save as" and save the script 
 <img src="Images/Download%20script.png" width="300" >
 <br>
+Click on the script and choose "run with Powershell"
 <img src="Images/Runscript.png" width="300" >
 <br>
 <img src="Images/Script01.png" width="300" >
