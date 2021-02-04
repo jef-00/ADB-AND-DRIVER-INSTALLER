@@ -32,8 +32,12 @@ Click on the script and choose "run with Powershell"
 <br>6. 15 seconds passed - finished!
 
 # Notes:
-System-wide: ADB and Fastboot are installed to SystemDrive\ADB directory, and added system-wide path.
+System-wide: ADB and Fastboot are installed to HOMEDRIVE\ADB directory, and added system-wide path. <br>
+HOMEDRIVE=C:\ so in case of the system-wide install option ADB will copy over to C:\ADB 
+<br>
 Current user only: ADB and Fastboot are installed to UserProfile\ADB directory, and added path for current user.
+UserProfile=%SystemDrive%\Users\{username} so in case of the Userwide-wide install option ADB will copy over to C:\Users\username\ADB
+<br>
 CMD can use ADB and Fastboot from any directory.
 
 # Problems after driver installation?
