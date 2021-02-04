@@ -64,3 +64,15 @@ Go to the device manager and right click on the android driver and choose update
 <img src="Images/8.png" width="300" >
 
 Now the driver will work!
+
+# How to update?
+If you want to update ADB when there is an new version of ADB. The update process depends how you install ADB, System- wide or User-Wide 
+if you have installed System-wide place the script in C:\ and run the script until image blow and close the window.
+When you have installed ADB User-wide place the script in %SystemDrive%\Users\{username} and run the script until image blow and close the window.<br>
+<img src="Images/Script05.png" width="300" >
+<br>
+
+## Update drivers
+Rerun the tool until image blow and choose yes if you were ask "Do you want to install device drivers""
+<img src="Images/Script04.png" width="300" >
+<br>
