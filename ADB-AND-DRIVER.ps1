@@ -226,7 +226,7 @@ function InstallDriver {
 
     write-host "`nFollow the instructions on the screen to install the driver"
 
-    #pnputil.exe /i /a $destinationDirectoryDriver\android_winusb.inf
+    pnputil.exe /i /a $destinationDirectoryDriver\android_winusb.inf
 
     # Remove driver directory
     $RemoveDriver = "$PSScriptRoot\latest_usb_driver_windows\" , "$PSScriptRoot\latest_usb_driver_windows.zip"
