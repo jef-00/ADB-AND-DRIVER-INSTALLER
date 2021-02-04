@@ -122,7 +122,7 @@ function ADBsystemwide {
       [string]$destinationDirectory = "$env:HOMEDRIVE\ADB"
       Copy-item -Force -Recurse $sourceDirectory -Destination $destinationDirectory 
 
-      #[Environment]::SetEnvironmentVariable("PATH", "$ENV:PATH;$destinationDirectory", "MACHINE")
+      [Environment]::SetEnvironmentVariable("PATH", "$ENV:PATH;$destinationDirectory", "MACHINE")
  
       #Remove ADB folder
       $RemoveADBFiles = "$PSScriptRoot\ADB"
