@@ -72,7 +72,7 @@ When you have installed ADB User-wide place the script in %SystemDrive%\Users\{u
 <img src="Images/Script05.png" width="300" >
 <br>
 
-## How to update drivers
+## How to update drivers?
 Rerun the tool until image blow and choose yes if you were ask "Do you want to install device drivers"
 <img src="Images/Script04.png" width="300" >
 <br>
