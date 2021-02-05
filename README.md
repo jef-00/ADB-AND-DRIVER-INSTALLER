@@ -12,7 +12,7 @@ Small - 8,98 kB
 0. Click on the script and choose "link save as" and save the script 
 <img src="Images/Download%20script.png" width="300" >
 <br>
-Click on the script and choose "run with Powershell"
+Right click on the script and choose "run with Powershell"
 <img src="Images/Runscript.png" width="300" >
 <br>
 <img src="Images/Script01.png" width="300" >
@@ -33,12 +33,13 @@ Click on the script and choose "run with Powershell"
 
 # Notes:
 System-wide: ADB and Fastboot are installed to HOMEDRIVE\ADB directory, and added system-wide path. <br>
-HOMEDRIVE=C:\ so in case of the system-wide install option ADB will copy over to C:\ADB 
+HOMEDRIVE=C:\ so in case of the System-wide install option ADB will copy over to C:\ADB 
 <br>
 Current user only: ADB and Fastboot are installed to UserProfile\ADB directory, and added path for current user.
 UserProfile=%SystemDrive%\Users\{username} so in case of the Userwide-wide install option ADB will copy over to C:\Users\username\ADB
 <br>
-CMD can use ADB and Fastboot from any directory.
+CMD or Poweshell can use ADB and Fastboot from any directory.<br>
+You can run the script from any directory unless you want to update ADB. Follow the steps from how to update if you want to update.
 
 # Problems after driver installation?
 Go to the device manager and right click on the android driver and choose update driver. <br>
@@ -66,13 +67,12 @@ Go to the device manager and right click on the android driver and choose update
 Now the driver will work!
 
 # How to update?
-If you want to update ADB when there is an new version of ADB. The update process depends how you install ADB, System- wide or User-Wide 
+If you want to update ADB when there is an new version of ADB. The update process depends how you install ADB, System-wide or User-Wide 
 if you have installed System-wide place the script in C:\ and run the script until image blow and close the window.
 When you have installed ADB User-wide place the script in %SystemDrive%\Users\{username} and run the script until image blow and close the window.<br>
 <img src="Images/Script05.png" width="300" >
 <br>
 
 ## How to update drivers?
-Rerun the tool until image blow and choose yes if you were ask "Do you want to install device drivers"
-<img src="Images/Script04.png" width="300" >
-<br>
+Rerun the tool and choose "no" until you were ask "Do you want to install device drivers" Choose "yes"
+
