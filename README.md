@@ -9,7 +9,7 @@ Small - 8,98 kB
 <br>Clean - ADB and Google Drivers from the Official repositories.
 
 # Install process:
-0. Click on the script and choose "link save as" and save the script 
+Click on the script and choose "link save as" and save the script <br> 
 <img src="Images/Download%20script.png" width="300" >
 <br>
 Right click on the script and choose "run with Powershell"
