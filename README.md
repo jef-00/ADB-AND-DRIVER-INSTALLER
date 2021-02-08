@@ -42,6 +42,8 @@ CMD or Poweshell can use ADB and Fastboot from any directory.<br>
 You can run the script from any directory unless you want to update ADB. Follow the steps from how to update if you want to update.
 
 # Problems after driver installation?
+<img src="Images/Script06.png" width="300" >
+<br>
 Go to the device manager and right click on the android driver and choose update driver. <br>
 <img src="Images/1.png" width="300" >
 <br>
